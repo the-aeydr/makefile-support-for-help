@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: makefile-support-for-help
+  description: Supporting 'help' as a target within Makefiles for self-documentation
+  tags:
+    - makefile
+    - makefile
+  annotations:
+    displayName: A re-usable help command for Makefiles
+    github.com/project-slug: the-aeydr/makefile-support-for-help
+spec:
+  type: documentation
+  lifecycle: experimental
